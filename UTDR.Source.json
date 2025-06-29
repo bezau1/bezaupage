@@ -1,0 +1,37 @@
+{
+  "name": "UTDR Source",
+  "subtitle": "",
+  "description": "",
+  "iconURL": "https://i.imgur.com/LXunawC.png",
+  "website": "",
+  "patreonURL": "",
+  "tintColor": "#0009",
+  "featuredApps": [
+    "com.jockeholm.undertale"
+  ],
+  "apps": [
+    {
+      "name": "UNDERTALE",
+      "bundleIdentifier": "com.jockeholm.undertale",
+      "marketplaceID": "",
+      "developerName": "bezau1",
+      "subtitle": "Undertale iOS edition",
+      "localizedDescription": "This is an Undertale port only available on AltStore/SideStore.",
+      "iconURL": "https://i.imgur.com/EBDpsjc.png",
+      "tintColor": "#0009",
+      "category": "games",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSMainNibFile": "MainWindow-iPhone",
+          "NSMainNibFile~ipad": "MainWindow",
+          "NSMainNibFile~iphone": "MainWindow-iPhone"
+        }
+      },
+      "patreon": {}
+    }
+  ],
+  "news": []
+}
