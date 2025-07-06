@@ -7,12 +7,13 @@
   "patreonURL": "",
   "tintColor": "#0009",
   "featuredApps": [
-    "com.jockeholm.undertale"
+    "com.bezau.undertale"
   ],
   "apps": [
     {
       "name": "UNDERTALE",
-      "bundleIdentifier": "com.jockeholm.undertale",
+      "bundleIdentifier": "com.bezau.undertale",
+      "marketplaceID": "",
       "developerName": "bezau1",
       "subtitle": "Undertale iOS edition",
       "localizedDescription": "This is an Undertale port only available on AltStore/SideStore.",
@@ -24,9 +25,11 @@
         {
           "version": "1.0",
           "date": "2025-07-07",
-          "downloadURL": "https://download1514.mediafire.com/f37f219r77eg8SO0AVSAeh8i02yQCfmetnCyEtXXrp3RL1NL4z_RGTS9sSFhKfkZ9OxGKlWQci6JEL7xzZ9e2d4ykY_FDvZX_xf6AdTlqf5jVvP31UsBCxPo3eo7joRx0mWrd85wIjDvX-jcwbnEX34btjIDQGiQjLyyhWkg-SQr/btct9tmaep5kr65/UNDERTALE.ipa",
           "localizedDescription": "Initial release for SideStore",
-          "signature": ""
+          "downloadURL": "https://download1514.mediafire.com/f37f219r77eg8SO0AVSAeh8i02yQCfmetnCyEtXXrp3RL1NL4z_RGTS9sSFhKfkZ9OxGKlWQci6JEL7xzZ9e2d4ykY_FDvZX_xf6AdTlqf5jVvP31UsBCxPo3eo7joRx0mWrd85wIjDvX-jcwbnEX34btjIDQGiQjLyyhWkg-SQr/btct9tmaep5kr65/UNDERTALE.ipa",
+          "size": 79821,
+          "buildVersion": null,
+          "minOSVersion": null
         }
       ],
       "appPermissions": {
