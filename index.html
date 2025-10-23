@@ -5,43 +5,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me - bezau1</title>
   <style>
+    /* --- FONT --- */
     @font-face {
       font-family: '8bitoperator';
-      src: url('8bitoperator_jve.ttf') format('truetype');
+      src: url('./8bitoperator_jve.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
     }
 
+    /* --- BODY --- */
     body {
-      background-color: black;
-      color: white;
+      background-color: #000;
+      color: #fff;
       font-family: '8bitoperator', monospace;
       text-align: center;
       margin: 0;
       padding: 60px 20px;
     }
 
+    /* --- CONTAINER --- */
     .container {
-      max-width: 700px;
+      max-width: 720px;
       margin: 0 auto;
     }
 
+    /* --- HEADINGS --- */
     h1 {
       font-size: 32px;
-      margin-bottom: 20px;
+      margin-bottom: 25px;
     }
 
+    /* --- PARAGRAPH --- */
     p {
       font-size: 18px;
       line-height: 1.6;
-      margin-bottom: 30px;
+      margin-bottom: 35px;
     }
 
+    /* --- HIGHLIGHT TEXT --- */
     strong {
-      color: #ffcc00; /* golden tone like Undertale text */
+      color: #ffcc00;
+    }
+
+    /* --- ICONS --- */
+    .icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
     }
 
     .icons img {
       width: 48px;
-      margin: 0 10px;
+      height: 48px;
+      image-rendering: pixelated;
       transition: transform 0.2s ease, filter 0.2s ease;
     }
 
@@ -49,15 +67,21 @@
       transform: scale(1.2);
       filter: brightness(150%);
     }
+
+    /* --- LINKS --- */
+    a {
+      text-decoration: none;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>🥔 Hi, I'm bezau1</h1>
+
     <p>
       Creator of <strong>Undernet, UT Clock App Remake, Potassium Site, KinitoDESK</strong>
-      and more projects to come. Modder, developer & maker.<br>
-      I build things with pixels, wires, and low brain capacity.
+      and more projects to come. <br>
+      Modder, developer & maker. I build things with pixels, wires, and low brain capacity.
     </p>
 
     <div class="icons">
